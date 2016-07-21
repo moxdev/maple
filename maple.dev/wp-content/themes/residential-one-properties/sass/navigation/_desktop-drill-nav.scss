@@ -1,0 +1,129 @@
+/* Desktop Drill Nav */
+.site-navigation {
+    background-color: $color__brand-2;
+    padding:0 35px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    display: none;
+    position: relative;
+
+    &:before {
+        content: '';
+        display: block;
+        height: 1px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: -12px;
+        background-color: $color__brand-2;
+    }
+
+    ul {
+        margin: 0 auto;
+        padding:0;
+        list-style: none;
+        max-width: $width_max-content-width-lg;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display:flex;
+        -ms-flex-pack: center;
+        justify-content:center;
+
+        ul {
+            box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+            float: left;
+            position: absolute;
+            top: 95%;
+            left: -999em;
+            z-index: 99999;
+            display: block;
+
+            ul {
+                left: -999em;
+                top: 0;
+            }
+
+            li {
+                padding:0;
+                &:hover > ul,
+                &.focus > ul {
+                    left: 100%;
+                }
+            }
+
+            a {
+                width: 200px;
+                font-family: $font__main;
+                font-size: .75em;
+                line-height: 1.25;
+                background-color: #FFF;
+                text-transform: none;
+                padding:.5em;
+                color:$color__brand-1;
+
+                &:before {
+                    content: ''!important;
+                }
+            }
+
+            .current_page_item > a, a:hover {
+                background-color:$color__background-alt;
+            }
+
+            :hover > a,
+            .focus > a {
+            }
+
+            a:hover,
+            a.focus {
+            }
+        }
+
+        li:hover > ul,
+        li.focus > ul {
+            left: auto;
+        }
+    }
+
+    li {
+        position: relative;
+        padding: 0 .5em;
+
+        &:before {
+            display: none;
+        }
+    }
+
+    a {
+        font-family: $font__main-bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: block;
+        padding:.75em .75em .75em 2.5em;
+        position: relative;
+        letter-spacing: .03125em;
+        color:#FFF;
+
+        &:before {
+            font-size: 1.75em;
+            line-height: 1;
+            position: absolute;
+            left: 10px;
+            top: 20%;
+        }
+    }
+
+    .current_page_item > a,
+    .current-menu-item > a,
+    a:hover {
+        color:$color__brand-1;
+    }
+
+    .current_page_item > a:hover {
+        cursor: text;
+    }
+
+    @include respond-to(large) {
+        display:block;
+    }
+}

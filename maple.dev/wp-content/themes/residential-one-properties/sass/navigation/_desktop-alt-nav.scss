@@ -1,0 +1,38 @@
+/* Desktop Alt Nav */
+.alt-navigation {
+    float: right;
+    margin: 0 0 0 1em;
+    display: none;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        float: left;
+        margin-left: .25em;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: .8125em;
+        background-color: #000;
+        padding: .25em .6125em;
+        color: #FFF;
+    }
+
+    .current_page_item > a, a:hover {
+        background-color: #FFF;
+        color: #000;
+    }
+
+    .current_page_item > a:hover {
+        cursor: text;
+    }
+
+    @include respond-to(large) {
+        display: block;
+    }
+}
