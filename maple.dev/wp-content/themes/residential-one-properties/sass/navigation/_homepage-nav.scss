@@ -1,0 +1,88 @@
+/* Desktop Home Nav */
+.site-navigation-frontpage {
+    float: right;
+    clear: right;
+    display: none;
+    margin-top: 5px;
+
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display:flex;
+        flex-wrap:nowrap;
+
+        ul {
+            box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+            float: left;
+            position: absolute;
+            top: 95%;
+            left: -999em;
+            z-index: 99999;
+            display: block;
+
+            ul {
+                left: -999em;
+                top: 0;
+            }
+
+            li {
+                padding:0;
+                margin: 0;
+                &:hover > ul,
+                &.focus > ul {
+                    left: 100%;
+                }
+            }
+
+            a {
+                width: 200px;
+                font-family: $font__main;
+                font-size: .75em;
+                line-height: 1.25;
+                background-color: $color__brand-1;
+                text-transform: none;
+                padding:.5em;
+                color:$color__brand-1;
+
+                &:before {
+                    content: ''!important;
+                }
+
+                &:hover {
+                    background-color:$color__background-alt;
+                    color: #000;
+                }
+            }
+        }
+
+        li:hover > ul,
+        li.focus > ul {
+            left: auto;
+        }
+    }
+
+    li {
+        position: relative;
+    }
+
+    > ul li {
+        margin-left:1em;
+    }
+
+    a {
+        text-decoration: none;
+        display: block;
+        color: $color__home-links;
+
+        &:hover {
+            color:$color__brand-1;
+        }
+    }
+
+    @include respond-to(large) {
+        display: block;
+    }
+}
