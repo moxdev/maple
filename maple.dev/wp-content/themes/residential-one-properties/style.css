@@ -2516,23 +2516,23 @@ a:hover, a:active {
 }
 /* line 69, sass/navigation/_desktop-drill-nav.scss */
 .site-navigation ul ul .current_page_item > a, .site-navigation ul ul a:hover {
-  background-color: #f6f3ed;
+  background-color: #000;
 }
-/* line 82, sass/navigation/_desktop-drill-nav.scss */
+/* line 83, sass/navigation/_desktop-drill-nav.scss */
 .site-navigation ul li:hover > ul,
 .site-navigation ul li.focus > ul {
   left: auto;
 }
-/* line 88, sass/navigation/_desktop-drill-nav.scss */
+/* line 89, sass/navigation/_desktop-drill-nav.scss */
 .site-navigation li {
   position: relative;
   padding: 0 .5em;
 }
-/* line 92, sass/navigation/_desktop-drill-nav.scss */
+/* line 93, sass/navigation/_desktop-drill-nav.scss */
 .site-navigation li:before {
   display: none;
 }
-/* line 97, sass/navigation/_desktop-drill-nav.scss */
+/* line 98, sass/navigation/_desktop-drill-nav.scss */
 .site-navigation a {
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
   text-transform: uppercase;
@@ -2543,7 +2543,7 @@ a:hover, a:active {
   letter-spacing: .03125em;
   color: #FFF;
 }
-/* line 107, sass/navigation/_desktop-drill-nav.scss */
+/* line 108, sass/navigation/_desktop-drill-nav.scss */
 .site-navigation a:before {
   font-size: 1.75em;
   line-height: 1;
@@ -2551,13 +2551,13 @@ a:hover, a:active {
   left: 10px;
   top: 20%;
 }
-/* line 116, sass/navigation/_desktop-drill-nav.scss */
+/* line 117, sass/navigation/_desktop-drill-nav.scss */
 .site-navigation .current_page_item > a,
 .site-navigation .current-menu-item > a,
 .site-navigation a:hover {
   color: #aac195;
 }
-/* line 122, sass/navigation/_desktop-drill-nav.scss */
+/* line 123, sass/navigation/_desktop-drill-nav.scss */
 .site-navigation .current_page_item > a:hover {
   cursor: text;
 }
@@ -3725,8 +3725,9 @@ object {
 /* line 59, sass/page-templates/_floor-plans.scss */
 .page-template-page-floor-plans #floor-plan-listing .floor-plan h3 {
   color: #754100;
+  font-family: "ralewaymedium", Arial, Helvetica, sans-serif;
 }
-/* line 63, sass/page-templates/_floor-plans.scss */
+/* line 64, sass/page-templates/_floor-plans.scss */
 .page-template-page-floor-plans #floor-plan-listing .floor-plan .plan-img {
   margin-top: 1.5em;
   display: block;
@@ -3740,7 +3741,7 @@ object {
   }
 }
 @media (min-width: 950px) {
-  /* line 77, sass/page-templates/_floor-plans.scss */
+  /* line 78, sass/page-templates/_floor-plans.scss */
   .page-template-page-floor-plans .flex {
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -3752,32 +3753,32 @@ object {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
   }
-  /* line 88, sass/page-templates/_floor-plans.scss */
+  /* line 89, sass/page-templates/_floor-plans.scss */
   .page-template-page-floor-plans .flex .flex-item {
     -ms-flex: 1 1 50%;
     flex: 1 1 50%;
   }
-  /* line 93, sass/page-templates/_floor-plans.scss */
+  /* line 94, sass/page-templates/_floor-plans.scss */
   .page-template-page-floor-plans .flex #floor-plan-listing, .page-template-page-floor-plans .flex #article-wrapper {
     padding: 0;
   }
-  /* line 97, sass/page-templates/_floor-plans.scss */
+  /* line 98, sass/page-templates/_floor-plans.scss */
   .page-template-page-floor-plans .flex #floor-plan-listing {
     -ms-flex-order: 1;
     order: 1;
   }
-  /* line 101, sass/page-templates/_floor-plans.scss */
+  /* line 102, sass/page-templates/_floor-plans.scss */
   .page-template-page-floor-plans .flex #floor-plan-listing > div {
     padding: 30px;
     float: right;
     max-width: 530px;
   }
-  /* line 108, sass/page-templates/_floor-plans.scss */
+  /* line 109, sass/page-templates/_floor-plans.scss */
   .page-template-page-floor-plans .flex #article-wrapper {
     -ms-flex-order: 5;
     order: 5;
   }
-  /* line 112, sass/page-templates/_floor-plans.scss */
+  /* line 113, sass/page-templates/_floor-plans.scss */
   .page-template-page-floor-plans .flex #article-wrapper article {
     padding-left: 30px;
     padding-right: 30px;
@@ -3786,12 +3787,12 @@ object {
   }
 }
 @media (min-width: 1280px) {
-  /* line 126, sass/page-templates/_floor-plans.scss */
+  /* line 127, sass/page-templates/_floor-plans.scss */
   .page-template-page-floor-plans .flex #floor-plan-listing > div {
     padding: 30px 60px;
     max-width: 710px;
   }
-  /* line 134, sass/page-templates/_floor-plans.scss */
+  /* line 135, sass/page-templates/_floor-plans.scss */
   .page-template-page-floor-plans .flex #article-wrapper article {
     padding-left: 60px;
     padding-right: 60px;

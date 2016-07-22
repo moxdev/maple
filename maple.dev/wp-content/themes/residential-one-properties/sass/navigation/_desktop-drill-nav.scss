@@ -67,7 +67,8 @@
             }
 
             .current_page_item > a, a:hover {
-                background-color:$color__background-alt;
+                // background-color:$color__background-alt;
+                background-color: #000;
             }
 
             :hover > a,
