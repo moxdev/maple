@@ -67,8 +67,8 @@
             }
 
             .current_page_item > a, a:hover {
-                // background-color:$color__background-alt;
-                background-color: #000;
+                background-color:$color__background-alt;
+                // background-color: #000;
             }
 
             :hover > a,
@@ -117,7 +117,7 @@
     .current_page_item > a,
     .current-menu-item > a,
     a:hover {
-        color:$color__brand-1;
+        color: #000;
     }
 
     .current_page_item > a:hover {

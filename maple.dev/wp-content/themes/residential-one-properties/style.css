@@ -493,7 +493,7 @@ h3 {
 .widget#contact-hours h3, .widget#contact-location h3, .widget#contact-phone h3 {
   text-transform: uppercase;
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
-  color: #aac195;
+  color: #754100;
 }
 
 /* line 1, sass/typography/_copy.scss */
@@ -692,9 +692,9 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
   border: 1px solid;
-  border-color: #aac195;
+  border-color: #754100;
   border-radius: 5px;
-  background: #aac195;
+  background: #754100;
   color: #FFF;
   box-shadow: none;
   font-size: 14px;
@@ -716,7 +716,7 @@ input[type="reset"]:focus,
 input[type="submit"]:hover,
 input[type="submit"]:active,
 input[type="submit"]:focus {
-  background: #d1ddc5;
+  background: #c26c00;
   color: #FFF;
 }
 /* line 23, sass/forms/_buttons.scss */
@@ -2516,7 +2516,7 @@ a:hover, a:active {
 }
 /* line 69, sass/navigation/_desktop-drill-nav.scss */
 .site-navigation ul ul .current_page_item > a, .site-navigation ul ul a:hover {
-  background-color: #000;
+  background-color: #f6f3ed;
 }
 /* line 83, sass/navigation/_desktop-drill-nav.scss */
 .site-navigation ul li:hover > ul,
@@ -2555,7 +2555,7 @@ a:hover, a:active {
 .site-navigation .current_page_item > a,
 .site-navigation .current-menu-item > a,
 .site-navigation a:hover {
-  color: #aac195;
+  color: #000;
 }
 /* line 123, sass/navigation/_desktop-drill-nav.scss */
 .site-navigation .current_page_item > a:hover {
@@ -2593,13 +2593,13 @@ a:hover, a:active {
 .alt-navigation a {
   text-decoration: none;
   font-size: .8125em;
-  background-color: #000;
+  background-color: #679045;
   padding: .25em .6125em;
   color: #FFF;
 }
 /* line 26, sass/navigation/_desktop-alt-nav.scss */
 .alt-navigation .current_page_item > a, .alt-navigation a:hover {
-  background-color: #FFF;
+  background-color: #aac195;
   color: #000;
 }
 /* line 31, sass/navigation/_desktop-alt-nav.scss */
@@ -2714,7 +2714,7 @@ a:hover, a:active {
   z-index: 500;
   float: right;
   clear: right;
-  background: #d1ddc5;
+  background: #c26c00;
   padding: .25em .5em;
   font-size: 20px;
   font-size: 1.25rem;
@@ -3632,6 +3632,10 @@ object {
 /* line 4, sass/page-templates/_contact.scss */
 .page-template-page-contact #content {
   background-color: #f6f3ed;
+}
+/* line 9, sass/page-templates/_contact.scss */
+.page-template-page-contact #contact-phone .widget h3 {
+  color: #754100;
 }
 
 /*--------------------------------------------------------------
