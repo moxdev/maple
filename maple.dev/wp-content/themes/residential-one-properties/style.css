@@ -2619,7 +2619,7 @@ a:hover, a:active {
 /* Mobile Navigation */
 /* line 2, sass/navigation/_mobile-nav.scss */
 .mobile-navigation {
-  background-color: #aac195;
+  background-color: #fff;
   position: fixed;
   z-index: 150;
   display: none;
@@ -2688,7 +2688,7 @@ a:hover, a:active {
 }
 /* line 73, sass/navigation/_mobile-nav.scss */
 .mobile-navigation a:hover, .mobile-navigation a:active, .mobile-navigation .current_page_item > a {
-  color: #FFF;
+  color: #aac195;
 }
 /* line 77, sass/navigation/_mobile-nav.scss */
 .mobile-navigation .current_page_item > a:hover {
@@ -2714,10 +2714,14 @@ a:hover, a:active {
   z-index: 500;
   float: right;
   clear: right;
-  background: #c26c00;
+  background: #aac195;
   padding: .25em .5em;
   font-size: 20px;
   font-size: 1.25rem;
+}
+/* line 103, sass/navigation/_mobile-nav.scss */
+.menu-toggle:hover {
+  background: #679045;
 }
 @media (min-width: 1280px) {
   /* line 95, sass/navigation/_mobile-nav.scss */

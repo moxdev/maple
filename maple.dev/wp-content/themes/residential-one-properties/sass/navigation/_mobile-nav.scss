@@ -1,6 +1,6 @@
 /* Mobile Navigation */
 .mobile-navigation {
-    background-color: $color__brand-1;
+    background-color: $color__masthead;
     position: fixed;
     z-index: 150;
     display: none;
@@ -71,7 +71,7 @@
     }
 
     a:hover, a:active, .current_page_item > a {
-        color: #FFF;
+        color: $color__brand-1;
     }
 
     .current_page_item > a:hover {
@@ -97,9 +97,12 @@
     z-index: 500;
     float: right;
     clear: right;
-    background:lighten( $color__background-button, 15% );
+    background: $color__brand-1;
     padding: .25em .5em;
     @include font-size(1.25);
+    &:hover {
+        background: $color_brand-3;
+    }
 
     @include respond-to(large) {
         display: none;
