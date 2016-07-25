@@ -20,6 +20,7 @@
 
 		.custom-logo {
 			display: block;
+			width: 150px;
 		}
 
 		.custom-logo-link {
@@ -32,6 +33,7 @@
 		font-family:$font__main-bold;
 		font-size: .875em;
 		color: $color_brand-3;
+		padding-bottom: 20px;
 
 		span {
 			font-family: $font__main-alt-2;

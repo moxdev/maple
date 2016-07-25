@@ -724,7 +724,7 @@ button:hover, .more-link:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-  border-color: #aac195;
+  border-color: #754100;
 }
 /* line 26, sass/forms/_buttons.scss */
 button:active, .more-link:active, button:focus, .more-link:focus,
@@ -734,7 +734,7 @@ input[type="reset"]:active,
 input[type="reset"]:focus,
 input[type="submit"]:active,
 input[type="submit"]:focus {
-  border-color: #aac195;
+  border-color: #754100;
 }
 
 /* line 1, sass/forms/_fields.scss */
@@ -2407,7 +2407,7 @@ a:hover, a:active {
 }
 /* line 54, sass/navigation/_desktop-home-nav.scss */
 .site-navigation-frontpage ul ul a:hover {
-  background-color: #f6f3ed;
+  background-color: #679045;
   color: #000;
 }
 /* line 61, sass/navigation/_desktop-home-nav.scss */
@@ -2431,7 +2431,7 @@ a:hover, a:active {
 }
 /* line 80, sass/navigation/_desktop-home-nav.scss */
 .site-navigation-frontpage a:hover {
-  color: #aac195;
+  color: #679045;
 }
 @media (min-width: 1280px) {
   /* line 2, sass/navigation/_desktop-home-nav.scss */
@@ -3320,24 +3320,26 @@ object {
 /* line 21, sass/masthead/_masthead.scss */
 #masthead .site-branding .custom-logo {
   display: block;
+  width: 150px;
 }
-/* line 25, sass/masthead/_masthead.scss */
+/* line 26, sass/masthead/_masthead.scss */
 #masthead .site-branding .custom-logo-link {
   display: block;
 }
-/* line 30, sass/masthead/_masthead.scss */
+/* line 31, sass/masthead/_masthead.scss */
 #masthead .masthead-tel {
   float: right;
   font-family: "ralewaybold", Arial, Helvetica, sans-serif;
   font-size: .875em;
   color: #679045;
+  padding-bottom: 20px;
 }
-/* line 36, sass/masthead/_masthead.scss */
+/* line 38, sass/masthead/_masthead.scss */
 #masthead .masthead-tel span {
   font-family: "ralewaymedium", Arial, Helvetica, sans-serif;
   display: none;
 }
-/* line 42, sass/masthead/_masthead.scss */
+/* line 44, sass/masthead/_masthead.scss */
 #masthead .flex {
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -3353,24 +3355,24 @@ object {
   -ms-flex-align: baseline;
   align-items: baseline;
 }
-/* line 57, sass/masthead/_masthead.scss */
+/* line 59, sass/masthead/_masthead.scss */
 #masthead .flex .flex-item {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   position: relative;
 }
 @media (min-width: 575px) {
-  /* line 65, sass/masthead/_masthead.scss */
+  /* line 67, sass/masthead/_masthead.scss */
   #masthead .masthead-tel {
     font-size: 1em;
   }
 }
 @media (min-width: 750px) {
-  /* line 71, sass/masthead/_masthead.scss */
+  /* line 73, sass/masthead/_masthead.scss */
   #masthead .site-branding {
     max-width: 275px;
   }
-  /* line 76, sass/masthead/_masthead.scss */
+  /* line 78, sass/masthead/_masthead.scss */
   #masthead .masthead-tel span {
     display: inline;
   }
@@ -3380,7 +3382,7 @@ object {
   #masthead {
     padding-top: 25px;
   }
-  /* line 85, sass/masthead/_masthead.scss */
+  /* line 87, sass/masthead/_masthead.scss */
   #masthead .site-branding {
     padding-bottom: 5px;
     max-width: 300px;
